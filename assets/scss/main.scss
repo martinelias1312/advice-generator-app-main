@@ -1,0 +1,17 @@
+@import url(/assets/css/normalize.css);
+@import '_variables';
+@import '_general';
+
+/*
+ *	CONTENT
+ ------------------------------------------------------ */
+
+/* Footer */
+.attribution {
+    font-size: 0.6875em;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
