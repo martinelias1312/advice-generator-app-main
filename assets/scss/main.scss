@@ -18,6 +18,19 @@ h1 {
     letter-spacing: 0.3em;
     color: $color-Neon-Green;
     text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+.advice {
+    font-size: 1.5em;
+}
+
+.mobile-img {
+    margin: 2em 0 0;
+}
+
+.desktop-img {
+    display: none;
 }
 
 .dice {
@@ -47,4 +60,21 @@ h1 {
 
 .attribution a {
     color: $color-Neon-Green;
+}
+
+@media screen and (min-width: 499px) {
+    main {
+        max-width: 499px;
+        padding: 3em 2em 1em;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+    
+    .desktop-img {
+        display: inline;
+        margin: 2em 0 0;
+        width: 97%;
+    }
 }
