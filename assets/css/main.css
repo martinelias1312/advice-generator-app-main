@@ -18,6 +18,19 @@ html {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   background: #1f2632;
   color: #cee3e9;
@@ -46,6 +59,41 @@ img {
 /*
  *	CONTENT
  ------------------------------------------------------ */
+main {
+  margin: 0 1em 3em;
+  padding: 1em 1.5em;
+  background: #323a49;
+  border-radius: 1em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+  color: #52ffa8;
+  text-transform: uppercase;
+}
+
+.dice {
+  width: 24px;
+  height: 24px;
+}
+
+.dice-btn {
+  position: relative;
+  bottom: -3em;
+  background: #52ffa8;
+  border: #52ffa8;
+  border-radius: 50%;
+  padding: 1.2em;
+}
+
+.dice-btn:hover, .dice-btn:focus {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 50px #52ffa8;
+          box-shadow: 0 0 50px #52ffa8;
+}
+
 /* Footer */
 .attribution {
   font-size: 0.6875em;
@@ -53,6 +101,6 @@ img {
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: #52ffa8;
 }
 /*# sourceMappingURL=main.css.map */

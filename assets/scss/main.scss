@@ -5,6 +5,39 @@
 /*
  *	CONTENT
  ------------------------------------------------------ */
+main {
+    margin: 0 1em 3em;
+    padding: 1em 1.5em;
+    background: $color-Dark-Grayish-Blue;
+    border-radius: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 0.7em;
+    letter-spacing: 0.3em;
+    color: $color-Neon-Green;
+    text-transform: uppercase;
+}
+
+.dice {
+    width: 24px;
+    height: 24px;
+}
+
+.dice-btn {
+    position: relative;
+    bottom: -3em;
+    background: $color-Neon-Green;
+    border: $color-Neon-Green;
+    border-radius: 50%;
+    padding: 1.2em;
+}
+
+.dice-btn:hover, .dice-btn:focus {
+    cursor: pointer;
+    box-shadow: 0 0 50px $color-Neon-Green;
+}
 
 /* Footer */
 .attribution {
@@ -13,5 +46,5 @@
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: $color-Neon-Green;
 }
